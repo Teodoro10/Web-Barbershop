@@ -1,0 +1,31 @@
+header {
+    font-family: Arial;
+    background: #4e5151;
+}
+
+
+/* display block nao sei porque coloqeui */
+
+h1 {
+    margin: 0 0 0 150px;
+}
+
+
+/* nav li é para mudar a tabela em si, display:inline deixa a tabela em linha */
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+
+/* nav a é para mudar no link que tem detro da tabela */
+
+nav a {
+    /* transform é para colocar as letras em maiusculas, e weight para aumentar a expressao da palavra, decoration ?*/
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20x;
+}
