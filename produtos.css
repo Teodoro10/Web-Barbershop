@@ -1,13 +1,25 @@
 header {
     font-family: Arial;
-    background: #4e5151;
+    background: #71bb11;
+    padding: 40px 0;
 }
 
 
-/* display block nao sei porque coloqeui */
+/* width é a largura da div, posição relativa e margin auto ela auto se posiciona dentro da div  */
 
-h1 {
-    margin: 0 0 0 150px;
+.tabela {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* tem que colocar position relative para vc tirar a tabela do padrao de posicionamento, heighth = altura, position leva muitoo em conta a tela que é usada*/
+
+nav {
+    position: absolute;
+    right: 0px;
+    top: 120px;
 }
 
 
@@ -24,8 +36,8 @@ nav li {
 nav a {
     /* transform é para colocar as letras em maiusculas, e weight para aumentar a expressao da palavra, decoration ?*/
     text-transform: uppercase;
-    color: aqua;
+    color: rgb(255, 245, 245);
     font-weight: bold;
     text-decoration: none;
-    font-size: 20x;
+    font-size: 25px;
 }
