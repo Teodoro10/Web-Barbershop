@@ -1,53 +1,74 @@
-.tree 
-  {
-    background:#00ced1;
- }
- #banner {
-    width: 100% ;
- }
- #h1{
-     font-size: 60px;text-align:center;
- }
-#p1{
-    font-size: 50px;text-align:center; 
+.tree {
+    background: #00ced1;
+}
 
+#banner {
+    width: 100%;
 }
-#p2{
-    font-size: 30px;text-align:center; 
+
+header:hover {
+    color: white;
 }
-#p3{
-     font-size: 30px;text-align:center; padding:50px; 
+
+#h1:active {
+    color: blue;
 }
-strong 
-{
- color:white;
+
+#h1 {
+    font-size: 60px;
+    text-align: center;
 }
-strong1
-{
-    color:purple;
+
+#p1 {
+    font-size: 50px;
+    text-align: center;
 }
-.one{
+
+#p2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#p3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+strong {
+    color: white;
+}
+
+strong1 {
+    color: purple;
+}
+
+.one {
     background: orange;
 }
+
 header {
-  font-size:  90px; text-align:  center; 
+    font-size: 90px;
+    text-align: center;
 }
- img 
- {
+
+img {
     width: 60%
 }
-ul{
-    display:  inline-block; 
-    vertical-align:top;
+
+ul {
+    display: inline-block;
+    vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
+.two {
+    font-size: 30px;
+    color: black;
+}
 
-.two{ 
-      font-size : 30px; color: black;
- }
- h2{
-    text-align:center; padding:  20px;
- }
-
+h2 {
+    text-align: center;
+    padding: 20px;
+}
