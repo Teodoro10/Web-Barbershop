@@ -12,25 +12,48 @@
     <header>
         <div class="contatos">
             <h1>
-                <img src="logo-branco.png" href="Primeiro_Site.html">
+                <a href="Primeiro_Site.html"><img src="logo-branco.png"></a>
             </h1>
             <nav>
                 <ul>
                     <li><a href="Produtos.html">Produtos</a></li>
                     <li><a href="Serviços.html">Serviços</a></li>
-                    <li><a href="Contatos.html">Contato</a></li>
+                    <li><a href="Contatos.html">Contatos</a></li>
                     <li><a href="Local.html">Local</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <mai>
+    <main>
+        <form>
+            <!--label é para colocar legenda-->
+            <label for="nome"> Nome Completo</label>
+            <input type="text" id="nome">
+            <label for="email"> Email</label>
+            <input type="text" id="email">
+            <label for="telefone"> Telefone</label>
+            <input type="text" id="telefone">
+            <input type="submit" value="Enviar">
 
-    </mai>
-    <!-- <footer>
+            <label for="Mensagem">Escreva ai Pia</label>
+            <textarea cols="370" rows="8" id="mensagem"></textarea>
+            <div>
+                <p>Como Prefere Nosso Contato</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" value="email" id="radio-email" name="conatato">
+                <label for="radio-telefone">Telefone/Whatsapp</label>
+                <input type="radio" value="email" id="radio-email" name="conatato">
+                <label for="radio-instagram">Instagram</label>
+                <input type="radio" value="email" id="radio-email" name="conatato">
+
+            </div>
+
+        </form>
+    </main>
+    <footer>
         <img src="logo-branco.png">
- <a> &copy; Barbearia do Felipão</a>
-    </footer>-->
+        <h3> &copy; Barbearia do Felipão</h3>
+    </footer>
 
 </body>
 
