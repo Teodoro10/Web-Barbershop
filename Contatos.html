@@ -12,7 +12,7 @@
     <header>
         <div class="contatos">
             <h1>
-                <a href="Primeiro_Site.html"><img src="logo-branco.png"></a>
+                <a href="Primeiro_Site.html"><img src="logo-branco.png" alt="Logo da Barbearia" title="Logo da barbearia"></a>
             </h1>
             <nav>
                 <ul>
@@ -25,18 +25,15 @@
         </div>
     </header>
     <main>
-        <form>
+        <fieldset>
             <!--label é para colocar legenda-->
-            <label for="nome"> Nome Completo</label>
-            <input type="text" id="nome">
-            <label for="email"> Email</label>
-            <input type="text" id="email">
-            <label for="telefone"> Telefone</label>
-            <input type="text" id="telefone">
-            <input type="submit" value="Enviar">
-
-            <label for="Mensagem">Escreva ai Pia</label>
-            <textarea cols="370" rows="8" id="mensagem"></textarea>
+            <label for="nome"> Nome Completo <input type="text" id="nome" required placeholder="Nome completo"></label>
+            <label for="email"> Email<input type="text" id="email" required placeholder="seuemail@dominio.com"></label>
+            <label for="telefone"> Telefone <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX"></label>
+            <label type="date">Data <input type="date" id="data" required></label>
+            <label for="senha">Senha <input type="password" id="senha" required></label>
+            <label for="Mensagem">Escreva ai Pia <input type="submit" value="Enviar" required></label>
+            <textarea cols="50" rows="8" id="mensagem"></textarea>
             <div>
                 <p>Como Prefere Nosso Contato</p>
                 <label for="radio-email">Email</label>
@@ -45,10 +42,14 @@
                 <input type="radio" value="email" id="radio-email" name="conatato">
                 <label for="radio-instagram">Instagram</label>
                 <input type="radio" value="email" id="radio-email" name="conatato">
-
             </div>
-
-        </form>
+            <label><input type="checkbox">Qual a refeição que vc mais curte </label>
+            <select><!--seleciona as opçoes-->
+                <option>Café</option>
+                <option>Almoço</option>
+                <option>Janta</option>
+            </select>
+        </fieldset>
     </main>
     <footer>
         <img src="logo-branco.png">
@@ -58,3 +59,9 @@
 </body>
 
 </html>
+<!--table=tabela,<thead> é a parte do "titulo", <tbody> corpo, <tr> linha e <th> coluna -->
+<!--colocar input junto com label-->
+<!--required é para obrigar a pessoa escrever no campo que ela nao escreveu, no final dos inputs e colocsr placeholder-->
+<!--cheked legal para deixar ja marcado-->
+<!--fieldset = div e legend = titulo para formulario-->
+<!--alt coloca nas imagens para pessoas que tem visao fraca-->
