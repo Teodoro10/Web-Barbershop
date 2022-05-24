@@ -1,0 +1,83 @@
+header {
+    font-family: Arial;
+    background: #000;
+}
+
+.tabela {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+nav {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 245, 245);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+nav a:active {
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.png");
+    background: black;
+}
+
+footer img {
+    margin: 20px 0;
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#dono {
+    width: 30%;
+}
+
+main {
+    background: white;
+}
+
+main h2 {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+main p {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* em é tipo de medida*/
+
+
+/*cima direita baixo esquerda margin*/

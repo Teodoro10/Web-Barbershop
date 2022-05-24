@@ -12,26 +12,90 @@
     <header>
         <div class="contatos">
             <h1>
-                <img src="logo-branco.png" href="Primeiro_Site.html">
+                <a href="Primeiro_Site.html"><img src="logo-branco.png" alt="Logo da Barbearia" title="Logo da barbearia"></a>
             </h1>
             <nav>
                 <ul>
                     <li><a href="Produtos.html">Produtos</a></li>
-                    <li><a href="Serviços.html">Serviços</a></li>
-                    <li><a href="Contatos.html">Contato</a></li>
-                    <li><a href="Local.html">Local</a></li>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Contatos.html">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <mai>
-
-    </mai>
-    <!-- <footer>
+    <main>
+        <form>
+            <!--label é para colocar legenda-->
+            <label for="nome"> Nome Completo <input type="text" id="nome" required placeholder="Nome completo"></label>
+            <label for="email"> Email<input type="text" id="email" required placeholder="seuemail@dominio.com"></label>
+            <label for="telefone"> Telefone <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX"></label>
+            <label type="date">Data <input type="date" id="data" required></label>
+            <label for="senha">Senha <input type="password" id="senha" required></label>
+            <label for="Mensagem" id="texto">Prencha este campo(opcional)</label>
+            <textarea cols="20" rows="4" id="mensagem"></textarea>
+            <input type="submit" value="Enviar" required>
+            <div>
+                <p>Como Prefere Nosso Contato</p>
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="conatato">Email</label>
+                <label for="radio-telefone"><input type="radio" value="email" id="radio-email" name="conatato">Telefone/Whatsapp</label>
+                <label for="radio-instagram"><input type="radio" value="email" id="radio-email" name="conatato">Instagram</label>
+            </div>
+            <fieldset>
+                <label><input type="checkbox">Qual a refeição que vc mais curte </label>
+                <select><!--seleciona as opçoes-->
+                <option>Café</option>
+                <option>Almoço</option>
+                <option>Janta</option>
+                </select>
+            </fieldset>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dias</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Segunda-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+                <tr>
+                    <th>Terça-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+                <tr>
+                    <th>Quarta-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+                <tr>
+                    <th>Quinta-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+                <tr>
+                    <th>Sexta-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+                <tr>
+                    <th>Sabado-Feira</th>
+                    <th>10H - 20H</th>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </main>
+    <footer>
         <img src="logo-branco.png">
- <a> &copy; Barbearia do Felipão</a>
-    </footer>-->
+        <h3> &copy; Barbearia do Felipão</h3>
+    </footer>
 
 </body>
 
 </html>
+<!--table=tabela,<thead> é a parte do "titulo", <tbody> corpo, <tr> linha e <td> coluna e th para coluna do titulo  -->
+<!--colocar input junto com label-->
+<!--required é para obrigar a pessoa escrever no campo que ela nao escreveu, no final dos inputs e colocsr placeholder-->
+<!--cheked legal para deixar ja marcado-->
+<!--fieldset = div e legend = titulo para formulario-->
+<!--alt coloca nas imagens para pessoas que tem visao fraca-->
