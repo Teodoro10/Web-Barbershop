@@ -1,6 +1,6 @@
 header {
-    font-family: Arial;
     background: #000;
+    font-family: 'Lobster', cursive;
 }
 
 .tabela {
@@ -54,8 +54,10 @@ footer h3 {
     padding: 20px;
 }
 
-#dono {
-    width: 30%;
+section img {
+    width: 20%;
+    display: block;
+    margin: 0px auto;
 }
 
 main {
@@ -73,11 +75,36 @@ main p {
     font-size: 30px;
     color: red;
     text-align: center;
-    margin: 20px;
+    margin: 40px;
+}
+
+#mapa {
+    text-align: center;
+    padding: 30px;
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+}
+
+main h3 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.video {
+    text-align: center;
+    margin: 30px;
 }
 
 
 /* em é tipo de medida*/
 
 
-/*cima direita baixo esquerda margin*/
+/* vertical-align:top = as coisas vao fica em cima
+display:inline block = para deixar a tabela do lado do video
+line hight = espaçamento entre as linhas*/
+
+
+/*cima direita baixo esquerda margin --- nth-child(2n) so numeros pares ou (4) quarto numero vai recebe as confg */

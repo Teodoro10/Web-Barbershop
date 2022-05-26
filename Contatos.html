@@ -25,29 +25,47 @@
     </header>
     <main>
         <form>
-            <!--label é para colocar legenda-->
-            <label for="nome"> Nome Completo <input type="text" id="nome" required placeholder="Nome completo"></label>
-            <label for="email"> Email<input type="text" id="email" required placeholder="seuemail@dominio.com"></label>
-            <label for="telefone"> Telefone <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX"></label>
-            <label type="date">Data <input type="date" id="data" required></label>
-            <label for="senha">Senha <input type="password" id="senha" required></label>
-            <label for="Mensagem" id="texto">Prencha este campo(opcional)</label>
-            <textarea cols="20" rows="4" id="mensagem"></textarea>
-            <input type="submit" value="Enviar" required>
-            <div>
-                <p>Como Prefere Nosso Contato</p>
-                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="conatato">Email</label>
-                <label for="radio-telefone"><input type="radio" value="email" id="radio-email" name="conatato">Telefone/Whatsapp</label>
-                <label for="radio-instagram"><input type="radio" value="email" id="radio-email" name="conatato">Instagram</label>
-            </div>
             <fieldset>
-                <label><input type="checkbox">Qual a refeição que vc mais curte </label>
-                <select><!--seleciona as opçoes-->
+
+                <!--label é para colocar legenda-->
+                <label for="nome"> Nome Completo <input type="text" id="nome" required placeholder="Nome completo"></label>
+                <label for="email"> Email<input type="text" id="email" required placeholder="seuemail@dominio.com"></label>
+                <label for="telefone"> Telefone <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX"></label>
+                <label type="date">Data <input type="date" id="data" required></label>
+                <label for="senha">Senha <input type="password" id="senha" required></label>
+                <label for="Mensagem" id="texto">Prencha este campo(opcional)</label>
+                <textarea cols="20" rows="4" id="mensagem"></textarea>
+                <input type="submit" value="Enviar" required>
+                <div>
+                    <p>Como Prefere Nosso Contato</p>
+                    <label for="radio-email"><input type="radio" value="email" id="radio-email" name="conatato">Email</label>
+                    <label for="radio-telefone"><input type="radio" value="email" id="radio-email" name="conatato">Telefone/Whatsapp</label>
+                    <label for="radio-instagram"><input type="radio" value="email" id="radio-email" name="conatato">Instagram</label>
+                </div>
+
+                <label for="Mensagem">Escreva ai Pia <input type="submit" value="Enviar" required></label>
+                <textarea cols="50" rows="8" id="mensagem"></textarea>
+                <fieldset>
+
+                    <div>
+
+                        <p>Como Prefere Nosso Contato</p>
+                        <label for="radio-email">Email</label>
+                        <input type="radio" value="email" id="radio-email" name="conatato">
+                        <label for="radio-telefone">Telefone/Whatsapp</label>
+                        <input type="radio" value="email" id="radio-email" name="conatato">
+                        <label for="radio-instagram">Instagram</label>
+                        <input type="radio" value="email" id="radio-email" name="conatato">
+                </fieldset>
+
+                <fieldset>
+                    <label><input type="checkbox">Qual a refeição que vc mais curte </label>
+                    <select><!--seleciona as opçoes-->
                 <option>Café</option>
                 <option>Almoço</option>
                 <option>Janta</option>
                 </select>
-            </fieldset>
+                </fieldset>
         </form>
         <table>
             <thead>
@@ -84,6 +102,14 @@
             </tbody>
         </table>
         </form>
+
+        <label><input type="checkbox">Qual a refeição que vc mais curte </label>
+        <select><!--seleciona as opçoes-->
+                <option>Café</option>
+                <option>Almoço</option>
+                <option>Janta</option>
+            </select>
+        </fieldset>
     </main>
     <footer>
         <img src="logo-branco.png">
@@ -93,7 +119,16 @@
 </body>
 
 </html>
-<!--table=tabela,<thead> é a parte do "titulo", <tbody> corpo, <tr> linha e <td> coluna e th para coluna do titulo  -->
+<!--table=tabela,<thead> é a parte do "titulo",
+    <tbody> corpo,
+        <tr> linha e
+            <td> coluna e th para coluna do titulo -->
+<!--table=tabela,<thead> é a parte do "titulo",
+                    <tbody> corpo,
+                        <tr> linha e
+                            <td> coluna e th para coluna do titulo -->
+<!--table=tabela,<thead> é a parte do "titulo", <tbody> corpo, <tr> linha e <th> coluna -->
+
 <!--colocar input junto com label-->
 <!--required é para obrigar a pessoa escrever no campo que ela nao escreveu, no final dos inputs e colocsr placeholder-->
 <!--cheked legal para deixar ja marcado-->
