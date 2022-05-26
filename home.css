@@ -1,110 +1,115 @@
-header {
-    background: #000;
-    font-family: 'Lobster', cursive;
-}
-
-.tabela {
-    width: 940px;
-    position: relative;
-    margin: auto;
-}
-
-nav {
-    position: absolute;
-    right: 40px;
-    top: 120px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 20px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: rgb(255, 245, 245);
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-nav a:hover {
-    color: red;
-    text-decoration: underline;
-    font-size: 30px;
-}
-
-nav a:active {
-    color: blue;
-}
-
-footer {
-    text-align: center;
-    background: url("bg.png");
-    background: black;
-}
-
-footer img {
-    margin: 20px 0;
-}
-
-footer h3 {
-    color: white;
-    font-size: 30px;
-    padding: 20px;
-}
-
-section img {
-    width: 20%;
-    display: block;
-    margin: 0px auto;
-}
-
-main {
-    background: white;
-}
-
-main h2 {
-    font-size: 70px;
-    color: black;
-    text-align: center;
-    padding: 20px;
-}
-
-main p {
-    font-size: 30px;
-    color: red;
-    text-align: center;
-    margin: 40px;
-}
-
-#mapa {
-    text-align: center;
-    padding: 30px;
-    display: block;
-    margin: 0px auto;
-    width: 80%;
-}
-
-main h3 {
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    margin: 30px;
-}
-
-.video {
-    text-align: center;
-    margin: 30px;
-}
-
-
-/* em é tipo de medida*/
-
-
-/* vertical-align:top = as coisas vao fica em cima
+            header {
+                background: #000;
+                font-family: 'Lobster', cursive;
+            }
+            
+            .tabela {
+                width: 940px;
+                position: relative;
+                margin: auto;
+            }
+            
+            nav {
+                position: absolute;
+                right: 40px;
+                top: 120px;
+            }
+            
+            nav li {
+                display: inline;
+                margin: 0 0 0 20px;
+            }
+            
+            nav a {
+                text-transform: uppercase;
+                color: rgb(255, 245, 245);
+                font-weight: bold;
+                text-decoration: none;
+                font-size: 25px;
+            }
+            
+            nav a:hover {
+                color: red;
+                text-decoration: underline;
+                font-size: 30px;
+            }
+            
+            nav a:active {
+                color: blue;
+            }
+            
+            footer {
+                text-align: center;
+                background: url("bg.png");
+                background: black;
+            }
+            
+            footer img {
+                margin: 20px 0;
+            }
+            
+            footer h3 {
+                color: white;
+                font-size: 30px;
+                padding: 20px;
+            }
+            
+            section img {
+                width: 20%;
+                display: block;
+                margin: 0px auto;
+            }
+            
+            main {
+                background: linear-gradient( blue, orange, black);
+            }
+            
+            main h2 {
+                font-size: 70px;
+                color: black;
+                text-align: center;
+                padding: 20px;
+            }
+            
+            main p {
+                font-size: 30px;
+                color: red;
+                text-align: center;
+                margin: 40px;
+            }
+            
+            #mapa {
+                text-align: center;
+                padding: 30px;
+                display: block;
+                margin: 0px auto;
+                width: 940px;
+            }
+            
+            main h3 {
+                color: black;
+                font-size: 50px;
+                text-align: center;
+                margin: 30px;
+            }
+            
+            .video p {
+                color: black;
+                font-size: 40px;
+            }
+            
+            .video {
+                text-align: center;
+                padding: 30px;
+            }
+            
+            .video li {
+                font-size: 30px;
+                padding: 20px;
+                text-transform: uppercase;
+            }
+            /* em é tipo de medida*/
+            /* vertical-align:top = as coisas vao fica em cima
 display:inline block = para deixar a tabela do lado do video
 line hight = espaçamento entre as linhas*/
-
-
-/*cima direita baixo esquerda margin --- nth-child(2n) so numeros pares ou (4) quarto numero vai recebe as confg */
+            /*cima direita baixo esquerda margin --- nth-child(2n) so numeros pares ou (4) quarto numero vai recebe as confg */
