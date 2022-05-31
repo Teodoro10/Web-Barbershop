@@ -29,7 +29,7 @@
             }
             
             nav a:hover {
-                color: red;
+                color: purple;
                 text-decoration: underline;
                 font-size: 30px;
             }
@@ -42,6 +42,8 @@
                 text-align: center;
                 background: url("bg.png");
                 background: black;
+                min-width: 320px;
+                max-width: 880px;
             }
             
             footer img {
@@ -58,10 +60,14 @@
                 width: 20%;
                 display: block;
                 margin: 0px auto;
+                box-shadow: 10px 10px 30px #000;
+                /* coloca a img para fora e para text troca o box*/
+                /* inset depois do : para sombra interna*/
             }
             
             main {
-                background: linear-gradient( blue, orange, black);
+                background: linear-gradient(180deg, #fff, rgb(0, 0, 0));
+                /*posso tipo colocar uma cor com mias espaçp que a outra com porcentagem nas cores*/
             }
             
             main h2 {
@@ -70,10 +76,14 @@
                 text-align: center;
                 padding: 20px;
             }
+            /* main (>) p para todos os paragrafos direto do elemento
+           img+p o primeiro paragrafo
+           img~p todos debaixo da imagem
+           .principal p:not(#mapa) vc nao quer mudar apenas paragrafos desta idmapa
+               */
             
             main p {
                 font-size: 30px;
-                color: red;
                 text-align: center;
                 margin: 40px;
             }
@@ -94,7 +104,7 @@
             }
             
             .video p {
-                color: black;
+                color: white;
                 font-size: 40px;
             }
             
@@ -104,12 +114,39 @@
             }
             
             .video li {
+                color: white;
                 font-size: 30px;
                 padding: 20px;
                 text-transform: uppercase;
             }
-            /* em é tipo de medida*/
+            
+            .video li:before {
+                /* aferter*/
+                content: "✓";
+                color: red;
+                margin: 10px;
+            }
+            
+            @media screen and (max-width: 1200px) {
+                nav {
+                    position: static;
+                }
+                h1 {
+                    text-align: center;
+                }
+                footer {
+                    margin: auto;
+                }
+                .video,
+                #mapa,
+                section img {
+                    width: 100%
+                }
+            }
+            /* em é tipo de medida, tipo: video:fiste{ai muda algo } */
             /* vertical-align:top = as coisas vao fica em cima
 display:inline block = para deixar a tabela do lado do video
 line hight = espaçamento entre as linhas*/
+            /*width:calc(28% - 40px) para deixar a imagem do tamanho certo para o site           
+/*opacity: 3;transition: 400ms; opacidade*/
             /*cima direita baixo esquerda margin --- nth-child(2n) so numeros pares ou (4) quarto numero vai recebe as confg */
